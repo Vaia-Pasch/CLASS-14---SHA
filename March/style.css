@@ -37,3 +37,9 @@ table {
   .doc {
       color: rgb(109, 49, 49);
   }
+
+  h2 {
+      margin: 50px;
+      text-align: center;
+      color:rgb(95, 18, 72);
+  }
