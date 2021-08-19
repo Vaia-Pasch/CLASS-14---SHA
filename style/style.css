@@ -6,7 +6,7 @@
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
-    width: 50%;
+    width: 90%;
   }
   
   .first{
@@ -25,6 +25,7 @@ table {
   }
 
   h1 {
+    margin: 20px;
     background: #ad5389;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -35,7 +36,7 @@ table {
   }
 
   .doc {
-      color: rgb(109, 49, 49);
+      color: rgb(143, 7, 7);
   }
 
   h2 {
@@ -43,3 +44,15 @@ table {
       text-align: center;
       color:rgb(95, 18, 72);
   }
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+}  
+  a:hover {
+  color: rgb(68, 0, 255);
+}  
+
+li {
+  list-style-type: "\1F44D"; // thumbs up sign
+}
